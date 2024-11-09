@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Featured Speakers</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Metropolis:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="intro">
+      <h3 class="intro__title">View our Featured Speakers for the Event</h3>
+      <p class="intro__description">
+        Speakers are contributors and industry thought leaders working at
+        <a
+          href="https://example.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="intro__highlight"
+          >companies</a
+        >
+        that push for innovation.
+      </p>
+    </section>
+    <div id="speakerDetails" class="speaker-details">
+      <button
+        class="speaker-details__close"
+        aria-label="Close"
+        onclick="closeSpeakerDetails()"
+      >
+        ×
+      </button>
+      <div class="speaker-details__content">
+        <div class="speaker-details__left">
+          <img class="speaker-details__image" alt="Speaker profile" />
+          <div class="speaker-details__info">
+            <div class="speaker-details__info__name"></div>
+            <div class="speaker-details__info__role"></div>
+            <div class="speaker-details__info__company"></div>
+            <div class="speaker-details__info__social">
+              <img
+                src="/assets/icons/drop.svg"
+                alt="Website"
+                class="speaker-details__info__social-icon"
+              />
+              <img
+                src="/assets/icons/twitter.svg"
+                alt="Twitter"
+                class="speaker-details__info__social-icon"
+              />
+              <img
+                src="/assets/icons/linkedin.svg"
+                alt="LinkedIn"
+                class="speaker-details__social-icon"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="speaker-details__right">
+          <div class="speaker-details__description"></div>
+        </div>
+      </div>
+    </div>
+
+    <section class="slider-container">
+      <button
+        class="slider-nav slider-nav--prev"
+        aria-label="Previous speakers"
+      >
+        <img src="/assets/icons/ChevronLeft.svg" alt="left nav" />
+      </button>
+
+      <div class="slider">
+        <div class="slider__track"></div>
+      </div>
+
+      <button class="slider-nav slider-nav--next" aria-label="Next speakers">
+        <img src="/assets/icons/ChevronRight.svg" alt="right nav" />
+      </button>
+    </section>
+
+    <section class="program">
+      <button class="program__button">See the Program</button>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

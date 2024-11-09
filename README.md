@@ -13,6 +13,8 @@ This is a simple web application that showcases a list of featured speakers for 
 
 /project-root |-- index.html # Main HTML file |-- styles.css # Custom styles for the application |-- script.js # JavaScript for interactivity and functionality |-- /assets # Images and icons used in the project
 
+https://www.loom.com/embed/5536d5c76ce54be0a7b260a1547b39c0?sid=c9143578-9cb0-46b6-a8ba-8c500ef19b93
+
 
 ## Technologies Used
 

@@ -2,6 +2,11 @@
 
 This is a simple web application that showcases a list of featured speakers for an event. It includes an interactive slider to navigate through speakers, a modal with speaker details, and an overview of the event program.
 
+## Watch the Loom Video
+
+[![Watch the Loom Video](https://cdn.loom.com/sessions/thumbnails/5536d5c76ce54be0a7b260a1547b39c0-with-play-icon.png)](https://www.loom.com/embed/5536d5c76ce54be0a7b260a1547b39c0?sid=c9143578-9cb0-46b6-a8ba-8c500ef19b93)
+
+
 ## Features
 
 - **Featured Speakers Section**: Displays the event's featured speakers with their names, roles, and companies.
@@ -13,7 +18,6 @@ This is a simple web application that showcases a list of featured speakers for 
 
 /project-root |-- index.html # Main HTML file |-- styles.css # Custom styles for the application |-- script.js # JavaScript for interactivity and functionality |-- /assets # Images and icons used in the project
 
-https://www.loom.com/embed/5536d5c76ce54be0a7b260a1547b39c0?sid=c9143578-9cb0-46b6-a8ba-8c500ef19b93
 
 
 ## Technologies Used
